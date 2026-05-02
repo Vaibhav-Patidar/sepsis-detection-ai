@@ -1,0 +1,41 @@
+{
+  "val_threshold_applied": {
+    "threshold": 0.5799999999999997,
+    "overall_accuracy": 0.9074,
+    "precision": 0.039,
+    "recall": 0.2727,
+    "f1_score": 0.0683,
+    "roc_auc": 0.6845,
+    "per_class_accuracy": {
+      "No Sepsis": 0.9154,
+      "Sepsis": 0.2727
+    },
+    "inference_time_ms": 0.0119
+  },
+  "test_best_f1": {
+    "threshold": 0.4049999999999998,
+    "overall_accuracy": 0.9019,
+    "precision": 0.0413,
+    "recall": 0.3099,
+    "f1_score": 0.0729,
+    "roc_auc": 0.6845,
+    "per_class_accuracy": {
+      "No Sepsis": 0.9094,
+      "Sepsis": 0.3099
+    },
+    "inference_time_ms": 0.0119
+  },
+  "test_high_recall": {
+    "threshold": 0.4049999999999998,
+    "overall_accuracy": 0.9019,
+    "precision": 0.0413,
+    "recall": 0.3099,
+    "f1_score": 0.0729,
+    "roc_auc": 0.6845,
+    "per_class_accuracy": {
+      "No Sepsis": 0.9094,
+      "Sepsis": 0.3099
+    },
+    "inference_time_ms": 0.0119
+  }
+}
